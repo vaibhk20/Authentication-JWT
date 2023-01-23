@@ -1,0 +1,61 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  height: 4.5rem;
+  padding: 0rem 4rem;
+  gap: 2rem;
+  background-color: black;
+}
+header a {
+  color: white;
+  text-decoration: none;
+}
+header span {
+  color: white;
+}
+a {
+  color: #474747;
+}
+h1 {
+  padding-top: 4rem;
+  font-weight: 400;
+  text-align: center;
+}
+input {
+  display: block;
+  padding: 1rem 0.8rem;
+  margin: auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+
+  width: 40%;
+  font-size: 1rem;
+}
+
+.left_link {
+  margin-left: 26rem;
+}
+
+.right_link {
+  margin: 20rem;
+}
+
+button {
+  background-color: black;
+  color: white;
+  border: ridge;
+  padding: 0.8rem 0.8rem;
+  width: 42%;
+  margin: 1rem 26rem;
+  border-radius: 5px;
+  font-size: 1rem;
+}
